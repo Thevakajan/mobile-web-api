@@ -1,0 +1,8 @@
+{
+  "appium_url": "http://127.0.0.1:4723/wd/hub",
+  "browserstack_url": "https://thevakajan:XMdjnSWeWk6TxI4ClvoiIDAUSva1baVEXXCMBG5KSQaoSVIItS@hub.lambdatest.com/wd/hub",
+  "avd_launch_timeout": 180000,
+  "bundle_id": "",
+  "url": "https://app.qa.spadesapp.io/landing/8DKDBPDQFWLO/62c2a90c4b31d6001c15c59b",
+  "admin_url": "https://admin.qa.spadesapp.io/"
+}

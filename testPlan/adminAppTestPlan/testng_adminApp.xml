@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="com.automate.listeners.Listeners"/>
+<!--  <listener class-name="com.automate.listeners.AnnotationTransformer"/>-->
+    </listeners>
+
+<!--    <test name="Test_Windows_WebBrowser">-->
+<!--&lt;!&ndash;      Web WINDOWS  MAC Browserstack&ndash;&gt;-->
+<!--        <parameter name="platformName" value="Browserstack"></parameter>-->
+<!--      <parameter name="Platform" value="WINDOWS" />-->
+<!--        <parameter name="browser" value="Chrome" />-->
+<!--        <classes>-->
+<!--            <class name="com.tests.webTest.SpadesLandingTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--    <test name="Test_Mac_WebBrowser">-->
+<!--        &lt;!&ndash;      Web WINDOWS  MAC Browserstack&ndash;&gt;-->
+<!--        <parameter name="platformName" value="Web"></parameter>-->
+<!--        <parameter name="Platform" value="MAC" />-->
+<!--        <parameter name="browser" value="Chrome" />-->
+<!--&lt;!&ndash;        <parameter name="version" value="10"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="device" value="Galaxy S9 Plus"/>&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="com.tests.webTest.SpadesLandingTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+
+    <test name="Test_Local_WebBrowser">
+        <!--      Web WINDOWS  MAC Browserstack-->
+        <parameter name="platformName" value="Web"></parameter>
+        <parameter name="Platform" value="MAC" />
+        <parameter name="browser" value="Chrome" />
+<!--        <parameter name="version" value="10"/>-->
+<!--        <parameter name="device" value="Galaxy S9 Plus"/>-->
+        <classes>
+<!--            <class name="com.tests.webTest.adminAppTest.AdminLoginTest"/>-->
+            <class name="com.tests.webTest.SpadesLandingTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
