@@ -1,0 +1,45 @@
+Hi all,
+Below is the agenda for the POC demo:
+
+To showcase:
+
+   1. POC demo automation framework.
+   2. The automation framework tech stack comprises:
+   a. Maven build-in tool
+   b. Page Object Model design pattern
+   c. Appium Library
+   d. Java 8
+   e. TestNG framework
+   f. Allure Reporting library
+   g. Logs - log4j and console logs
+   3. Parallel execution of scenarios on Android (Google Chrome) and iOS
+   (Safari) devices + browsers.
+   4. Scenarios that have been automated:
+   a. *Scenario 1:* Landing Page UI
+   b. *Scenario 2:* Checkout Page UI
+   c. *Scenario 3:* Full Bill + tip with card payment
+   5. Validations and verifications as mentioned in the test scenarios.
+
+
+The enhancements that can be achieved once the project is started:
+Implementation of:
+
+   1. Continuous Integration using Jenkins/ Azure DevOps
+   2. Source code management tool - GitHub
+   3. Customized Extent reports.
+   4. Execution Reports Status Integration with Slack
+   5. Additional parallel execution combinations of OS + Browsers
+   6. Test cases execution on cloud farm devices.
+   7. Documents explaining and detailing the Framework
+   8. Pass/ Fail screenshots of steps in logs.
+   9. A more optimized code and page object model with every implementation
+   is behind the pages.
+   10. Single code for executing scenarios on iOS and Android platforms.
+   11.want to research sms result send (not done get idea)
+   12.Screen recording 
+   13.retry failed
+   
+
+
+*Note:* Total hours invested by a single resource to build the framework
+and automate the mentioned scenarios: *48* hrs.
